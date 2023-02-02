@@ -8,29 +8,48 @@
   <title>Survey Form</title>
 </head>
 <body>
-  <h1 id="title">Coding Bootcamp Survey Form</h1>
-<p id="description"></p>
+  <h1 id="title">Coding Bootcamp Application</h1>
+<p id="description">Hello! Fill in the application form to join the bootcamp</p>
 <form id="survey-form">
-  <label id="name-label"></label>
+  <label id="name-label">Name</label>
   <input id="name" type="text" placeholder="Enter your name"></input>
-  <label id="email-label"></label>
+  <label id="email-label">Email</label>
   <input id="email" type="email" placeholder="Enter your email"></input>
-  <label id="number-label"></label>
+  <label id="number-label">Age</label>
   <input id="number" type="number" min="15" max="100" placeholder="Enter your age"></input>
+  <p>Do you have coding experience?</p>
   <select id="dropdown">
-    <option value=""></option>
-    <option value=""></option>
+    <option value="">Select an option</option>
+    <option value="">Yes</option>
+    <option value="">I have some experience</option>
+    <option value="">No</option>
   </select>
-  <label>
-    <input name=""></input>
-    <input name=""></input>
+  <p>How do you want to study</p>
+  <label>Online
+    <input name="" type="radio"></input>
   </label>
-  <label>
-    <input value="" type="checkbox"></input>
+  <label>Offline
+    <input name="" type="radio"></input>
+  </label>
+  <p>What do you want to study?</p>
+  <label>Front End Development
     <input value="" type="checkbox"></input>
   </label>
-  <textarea></textarea>
-  <button id="submit"></button>
+  <label>Back End Development
+    <input value="" type="checkbox"></input>
+  </label>
+  <label>Full Stack Development
+    <input value="" type="checkbox"></input>
+  </label>
+  <label>QA
+    <input value="" type="checkbox"></input>
+  </label>
+  <label>Project Management
+    <input value="" type="checkbox"></input>
+  </label>
+  <p>Do you have any questions?</p>
+  <textarea placeholder="Enter your question here"></textarea>
+  <button id="submit" type="submit"></button>
 </form>
 </body>
 </html>

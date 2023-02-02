@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #494949;
+  font-family: sans-serif;
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  list-style: none;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#description {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form {
+  padding: 20px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  display: block;
+}
