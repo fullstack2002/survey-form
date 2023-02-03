@@ -1,11 +1,31 @@
 * {
   margin: 0;
   padding: 0;
-  color: #ffffff;
-  background-color: #494949;
+  color: #000000;
   font-family: sans-serif;
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   list-style: none;
+}
+
+body {
+  background-color: #b892ff;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+      max-width: 720px;
+    }
+}
+
+form {
+  border-radius: 5px;
+  background-color: #43424257;
+  padding: 20px;
 }
 
 h1 {
@@ -21,15 +41,68 @@ h1 {
   margin-bottom: 15px;
 }
 
-form {
-  padding: 20px;
+.field-desc {
+  margin-bottom: 10px;
+}
+
+.form-item {
+  margin-bottom: 10px;
 }
 
 label {
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 
-input {
+input, select {
+  border: 1px solid #6e7072;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.form-input-field {
   display: block;
+  width: 35%;
+  height: 25px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.input-radio {
+  display: inline-block;
+  min-height: 20px;
+  min-width: 15px;
+  margin: auto 5px auto 0;
+}
+
+.input-checkbox {
+  display: inline-block;
+  min-height: 20px;
+  min-width: 15px;
+  margin: auto 5px auto 0;
+}
+
+.input-textarea {
+  display: inline-block;
+  min-height: 50px;
+  width: 95%;
+  resize: none;
+  border: 10px;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.submit-button {
+  display: block;
+  width: 50%;
+  height: 30px;
+  margin: 0 auto;
+  border: none;
+  background: #7C47BC;
+  border-radius: 4px;
 }
